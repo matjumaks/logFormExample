@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Virtua Frontend Internship Test</title>
+  </head>
+  <body>
+    <section class="main">
+      <button id="show-popup-form" class="btn btn-main">Click me!</button>
+      <button id="show-thx" class="btn btn-main">Thank you!</button>
+      <!-- Display success message below -->
+    </section>
+    <div class="popup">
+      <!-- Here goes your popup form HTML code -->
+      <button id="close">&times;</button>
+
+      <form id="form" action="">
+        
+        <h2 style="font-family: 'Lobster', cursive; position: relative;">Login</h2>
+
+        <input type="email" placeholder="E-mail" required>
+    
+        <input type="password" placeholder="Password" required>
+        
+        <label class="container">I agree to terms & conditions.
+            <input type="checkbox" required>
+            <span class="checkmark"></span>
+        </label>
+
+        <input  type="submit" value="SUBMIT">
+
+      </form>
+    </div>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
